@@ -70,4 +70,4 @@ gulp.task("watch", function () {
     gulp.watch("./source/js/**/*.js", ["babel"]);
 });
 
-gulp.task("default", ["jade", "sass", "babel","bower","vendorsJs", "watch"]);
+gulp.task("default", ["jade", "sass", "babel","bower","vendorJs", "watch"]);
